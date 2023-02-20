@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
 
 const API_KEY = "8625e5d94ba583d08e28ba33cdc02b65";
-const CITY = "Paris";
+const CITY = "Marseille";
 
 export default function WeatherApp() {
   const [weatherData, setWeatherData] = useState(null);
